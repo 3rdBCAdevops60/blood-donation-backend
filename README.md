@@ -1,54 +1,48 @@
-🩸 Blood Donation Management System – Backend
-📌 Project Overview
+# 🩸 Blood Donation Management System – Backend
 
-The Blood Donation Management System – Backend is a RESTful web application developed using Spring Boot.
+---
+
+## 📌 Project Overview
+
+The **Blood Donation Management System – Backend** is a RESTful web application developed using **Spring Boot**.  
 It provides APIs to manage blood donors, their availability, and blood group–based search.
 
-The backend uses an H2 in-memory database for development and demonstration purposes and supports full CRUD operations.
+The backend uses an **H2 in-memory database** for development and demonstration purposes and supports **full CRUD operations**.
 
-⚙️ Technologies Used
+---
 
-Java 17
+## ⚙️ Technologies Used
 
-Spring Boot
+- Java 17  
+- Spring Boot  
+- Spring Data JPA  
+- H2 Database  
+- Maven  
+- Docker  
+- SonarQube  
+- GitHub Actions (CI)  
+- IntelliJ IDEA  
 
-Spring Data JPA
+---
 
-H2 Database
+## 🧩 Features
 
-Maven
+- Register a new blood donor  
+- View all donors  
+- Search donors by blood group  
+- Update donor details  
+- Toggle donor availability  
+- Delete donor records  
+- RESTful API architecture  
+- Dockerized backend  
+- Code quality analysis using SonarQube  
+- Automated build using GitHub Actions  
 
-Docker
+---
 
-SonarQube
+## 🏗️ Project Structure
 
-GitHub Actions (CI)
 
-IntelliJ IDEA
-
-🧩 Features
-
-Register a new blood donor
-
-View all donors
-
-Search donors by blood group
-
-Update donor details
-
-Toggle donor availability
-
-Delete donor records
-
-RESTful API architecture
-
-Dockerized backend
-
-Code quality analysis using SonarQube
-
-Automated build using GitHub Actions
-
-🏗️ Project Structure
 src/main/java
  └── com.bloodbank.blooddonationsystem
      ├── controller
@@ -56,6 +50,7 @@ src/main/java
      ├── repository
      ├── entity
      └── BloodDonationSystemApplication.java
+
 
 🗄️ Database Details
 
@@ -95,6 +90,8 @@ Step 2: Run Application
 Run the main class:
 
 BloodDonationSystemApplication.java
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ab49c611-b9ee-454c-90b9-de9ace22d055" />
+
 
 📸 Build Backend
 <img width="1073" height="580" alt="Build Backend" src="https://github.com/user-attachments/assets/564c9a0c-3935-4f84-847c-33ee30f0aab0" />
@@ -168,6 +165,7 @@ jobs:
 
     - name: Build with Maven
       run: mvn clean install
+      
 
 📸 GitHub Actions Screenshot
 <img width="1893" height="964" alt="GitHub Actions Build" src="https://github.com/user-attachments/assets/663a07af-233f-4a27-a555-61e9a84509b8" />
@@ -188,13 +186,10 @@ This project helps hospitals and blood banks quickly identify available blood do
 
 🔮 Future Enhancements
 
-Persistent database (PostgreSQL / MySQL)
-
-User authentication & authorization
-
-Notification system (Email / SMS)
-
-Role-based access control
+  Persistent database (PostgreSQL / MySQL)
+  User authentication & authorization
+  Notification system (Email / SMS)
+  Role-based access control
 
 👩‍💻 Developed By
 
